@@ -1,21 +1,18 @@
 const ObjectsToCsv = require('objects-to-csv');
 const moment = require('moment')
 
-<<<<<<< HEAD
+
 // Sample data 
-=======
-// Sample data
->>>>>>> 5dff8298da4ce5a9430d132ba9e06bc492f40ef1
+
 const data = [
     { uID: '123', name: 'Syprose Gwako', timestamp: "2020-06-11T15:37:44.000Z" },
     { uID: '456', name: 'Victor Chelule', timestamp: 1382086394000 },
     { uID: '789', name: 'Lyanne Mapani', timestamp: "2016-03-12T00:00:00-06:00" },
+    { uID: '101', name: 'Luke Shankland', timestamp: "2020-06-16T07:32:50.241" }
 ];
-<<<<<<< HEAD
+
 //mapping to manipulate data
-=======
-//mapping to manipulate data before conversion
->>>>>>> 5dff8298da4ce5a9430d132ba9e06bc492f40ef1
+
 const preprocessedData = data.map((item, i) => ({
     index: i,
     uID: item.uID,
